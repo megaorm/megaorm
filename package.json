@@ -1,0 +1,52 @@
+{
+  "name": "@megaorm/core",
+  "version": "1.0.0",
+  "description": "A powerful and feature-rich ORM for Node.js with seamless database management and query execution.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "author": "Mohamed",
+  "license": "MIT",
+  "repository": {
+    "url": "git+https://github.com/megaorm/megaorm.git"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "megaorm",
+    "megaorm-core",
+    "database",
+    "sql",
+    "mysql",
+    "sqlite",
+    "postgresql",
+    "pg"
+  ],
+  "dependencies": {
+    "@megaorm/builder": "^1.0.0",
+    "@megaorm/cli": "^1.0.1",
+    "@megaorm/cluster": "^1.0.0",
+    "@megaorm/config": "^1.1.0",
+    "@megaorm/driver": "^1.0.0",
+    "@megaorm/echo": "^1.1.0",
+    "@megaorm/errors": "^1.0.0",
+    "@megaorm/faker": "^1.0.0",
+    "@megaorm/gen": "^1.0.0",
+    "@megaorm/logger": "^1.2.0",
+    "@megaorm/model": "^1.0.1",
+    "@megaorm/mysql": "^1.0.0",
+    "@megaorm/pg": "^1.0.0",
+    "@megaorm/pool": "^1.0.1",
+    "@megaorm/seeder": "^1.0.0",
+    "@megaorm/sqlite": "^1.0.0",
+    "@megaorm/test": "^1.2.0",
+    "@megaorm/text": "^1.1.1",
+    "@megaorm/utc": "^1.1.0",
+    "@megaorm/utils": "^1.0.0",
+    "@megaorm/zone": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  }
+}

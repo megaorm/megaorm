@@ -1,0 +1,10 @@
+coverage
+node_modules
+src
+test
+.gitignore
+CONTRIBUTING.md
+jest.config.js
+mega.config.js
+mega.js
+tsconfig
